@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: #000;
+}
+.container{
+    margin: 225px;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin:10px;
+    background: aliceblue;
+    width: 220px;
+    border-radius: 8px;
+}
+.cardimage{
+    height: 25%;
+    background-size: cover;
+    height: 123px;
+    width: 217px;
+    border-radius:8px;
+}
+.img1{
+    background-image: url('./img/IMG_20221125_224123.jpg');
+}
+.img2{
+    background-image: url('./img/IMG_20221125_224109.jpg');
+}
+.img3{
+    background-image: url('./img/IMG_20221125_224135.jpg');
+}
+.card h2{
+    text-align: center;
+    margin-top: 15px;
+    font-family:'Ubuntu';
+}
+.card p{
+    margin-top: 30px;
+    padding: 5px;
+}
+.card a{
+    padding: 6px 20px;
+    background-color: #000;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.card:hover{
+    background-color:rgb(167, 167, 167);
+    color: aliceblue;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
